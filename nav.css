@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+img{
+    cursor: pointer;}
+
+
+.topnav{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 15px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background:#19728B;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.topnav img{
+    width: 400px;
+    margin-right: 25px;
+    height: 120px;
+    object-fit: none;
+}
+.navmid a{
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+  text-decoration: none;
+}
+.navmid a:hover{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.navmid a::before{
+    content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+.navmid a:hover::before{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+.navright{
+    padding: 20px 50px;
+    color: black;
+    background-color: #FDD2B9;
+    border-radius: 50px;
+    border: solid black;
+    text-align: center;
+    box-shadow: 2px 2px 2px #6c6b6b;
+}
+.navright:hover{
+    
+    box-shadow: 6px 6px 6px #5a5a5a;
+    
+    
+}
+.navright a{
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.navright p{
+    font-size: 17px;
+}
+.container{
+    height: 100%;
+    width: 100;
+    background-image: url("image/bg3.png");
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.cont-info{
+    width: 700px;
+    margin-top: 130px;
+    margin-left: 80px;
+    
+}
+.cont-info img{
+    width: 850px;
+
+    margin-left: 650px;
+    margin-top: -450px;
+    
+    
+}
+.cont-info p{
+ font-size: 80px;
+ color: aliceblue;
+
+}
+.cont-info span{
+    font-size: 30px;
+}
+.cont-info button{
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 15px;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-color: #000000;
+    background-color: #FDD2B9;
+    box-shadow: 2px 2px 2px #5a5a5a;
+}
+.cont-info button:hover{
+    padding: 15px 30px;
+    font-size: 25px;
+    font-weight: 15px;
+    
+    border-radius: 50px;
+    border-color:#FDD2B9;
+    background-color: #19728B;
+    color: white;
+    box-shadow: 6px 6px 6px #5a5a5a;
+}
+.container2{
+    width: 100%;
+    height: 100%;
+    background-color: #F1E6E4;
+    align-items: center;
+    text-align: center;
+    
+}
+.cont2-info{
+    height: 200px;
+    display: flex;
+    margin-left: 480px;
+    padding-top: 100px;
+}
+.cont2-info p{
+    color: #19728B;
+    font-size: 50px;
+    margin: 0 20px;
+    font-weight: 700;
+}
+.cont2-info img{
+    width: 400px;
+    margin-right: 0px;
+    height: 120px;
+    
+    margin-top: -40px;
+    
+}
+.procedure{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+.img{
+    text-align: center;
+}
+.img p{
+    width: 300px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.img{
+    margin-top: -40px;
+    padding: 30px 0px;
+    background-color: #d8eff3;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px #5a5a5a;
+}
+
+.discount{
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-bottom: 400px;
+}
+.free{
+    padding: 50px 50px;
+    background-color: #19728B;
+    width: 800px;
+}
+.free img{
+    margin-bottom: 20px;
+}
+.free p{
+    font-size: 25px;
+    color: #d8eff3;
+    margin-bottom: 50px;
+}
+.free button{
+    padding: 30px 80px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.free button:hover{
+    padding: 30px 80px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #19728B;
+    border: solid white;
+}
