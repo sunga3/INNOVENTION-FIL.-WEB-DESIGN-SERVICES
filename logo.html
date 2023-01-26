@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="pagination.js">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
     <script src="pagination.js"></script>
+    <script src="modal.js"></script>
 </head>
 <body>
     <nav class="topnav">
@@ -35,32 +36,58 @@
             <div class="search-box flex-div">
                 <input type="text" placeholder="Search (Enter design, elements, text,  etc.)">
                 <img src="image/search.png">
-        </div>   
+        </div>
+    </div>    
     
         <div class="card-content" style="display:none">
             <div class="card">
-                <div class="card-image"><img src="image/Untitled design (47).png" alt=""></div>
+                <div class="card-image"><img id="myImg" src="image/Untitled design (47).png" alt=""></div>
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                  
+                    
                 <div class="card-info">
                     <h3>SAMPLE LOGO 01</h3>
                     <P>info about the logo</P>
                 </div>
             </div>
             <div class="card">
-                <div class="card-image"><img src="image/Untitled design (48).png" alt=""></div>
+                <div class="card-image"><img id="myImg2" src="image/Untitled design (48).png" alt=""></div>
+                <div id="myModal2" class="modal">
+                    <span class="close2">&times;</span>
+                    <img class="modal-content" id="img02">
+                    <div id="caption2"></div>
+                  </div>
+
+
                 <div class="card-info">
                     <h3>SAMPLE LOGO 02</h3>
                     <P>info about the logo</P>
                 </div>
             </div>
             <div class="card">
-                <div class="card-image"><img src="image/Untitled design (49).png" alt=""></div>
+                <div class="card-image"><img id="myImg3" src="image/Untitled design (49).png" alt=""></div>
+                <div id="myModal3" class="modal">
+                    <span class="close3">&times;</span>
+                    <img class="modal-content" id="img03">
+                    <div id="caption3"></div>
+                  </div>
                 <div class="card-info">
                     <h3>SAMPLE LOGO 03</h3>
                     <P>info about the logo</P>
                 </div>
             </div>
             <div class="card">
-                <div class="card-image"><img src="image/Untitled design (50).png" alt=""></div>
+                <div class="card-image"><img id="myImg4" src="image/Untitled design (50).png" alt=""></div>
+                <div id="myModal4" class="modal">
+                    <span class="close4">&times;</span>
+                    <img class="modal-content" id="img04">
+                    <div id="caption4"></div>
+                  </div>
                 <div class="card-info">
                     
                     <h3>SAMPLE LOGO 04</h3>
@@ -283,8 +310,78 @@
         <li class="page-item current-page"><a class="page-link" herf="#">10</a></li>
         <li class="page-item next-page"><a class="page-link" herf="#">Next</a></li>-->
     </div>
+
+    <div class="list-container">
+        <button>
+        <div class="vid-list">
+            <a href="playvideo.html"><video controls autoplay><source src="image/Untitled design (3).mp4" type="video/mp4"></video></a>
+            <div class="flex-div">
+                
+                <div class="vid-info">
+                    <a href="playvideo.html">animated LOGO</a>
+                    <p>(logo description)</p>
+                         <h4> recommendation <img src="images/star.png" alt=""> </h4> 
+                </div>
+            </div>
+        </div>
+    </button>
+    <button>
+        <div class="vid-list">
+            <a href="playvideo.html"><video controls autoplay><source src="image/Untitled design (6).mp4" type="video/mp4"></video></a>
+            <div class="flex-div">
+                
+                <div class="vid-info">
+                    <a href="playvideo.html">animated LOGO</a>
+                    <p>(logo description)</p>
+                         <h4> recommendation <img src="images/star.png" alt=""> </h4> 
+                </div>
+            </div>
+        </div>
+    </button>
+    <button>
+        <div class="vid-list">
+            <a href="playvideo.html"><video controls autoplay><source src="image/Untitled design (4).mp4" type="video/mp4"></video></a>
+            <div class="flex-div">
+                
+                <div class="vid-info">
+                    <a href="playvideo.html">animated LOGO</a>
+                    <p>(logo description)</p>
+                         <h4> recommendation <img src="images/star.png" alt=""> </h4> 
+                </div>
+            </div>
+        </div>
+    </button>
+    <button>
+        <div class="vid-list">
+            <a href="playvideo.html"><video controls autoplay><source src="image/Untitled design (5).mp4" type="video/mp4"></video></a>
+            <div class="flex-div">
+                
+                <div class="vid-info">
+                    <a href="playvideo.html">animated LOGO</a>
+                    <p>(logo description)</p>
+                         <h4> recommendation <img src="images/star.png" alt=""> </h4> 
+                </div>
+            </div>
+        </div>
+    </button>
+</div>
+
+    <div class="discount">
+        <div class="free">
+            <img src="image/logo.png" alt="">
+            <p>Most deals are 40-90% off normal prices with 
+                great itineraries from the best airlines. If it's 
+                not an amazing deal, we won't send it.</p>
+                <button> GET DISCOUNTS HERE</button>
+        </div>
+
+    </div>
+
     </div>  
+
+
     
     <script src="pagination.js"></script>  
+    <script src="modal.js"></script>
 </body>
 </html>
