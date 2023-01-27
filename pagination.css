@@ -125,9 +125,15 @@ nav{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 19%;
+    padding-right: 2%;
     
     background-color: #6acfeb;
     
+}
+
+.container h1{
+    margin: 40px;
 }
 
 .card-content{
@@ -377,7 +383,7 @@ max-height: 200px;
     margin-top: 100px;
     text-align: center;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 250px;
     margin-bottom: 400px;
 }
 .free{
@@ -411,8 +417,8 @@ max-height: 200px;
 
 .list-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-column-gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 30px;
     grid-row-gap: 30px;
     margin-top: 15px;
 }
@@ -471,8 +477,91 @@ float: right;
 .list-container button:hover{
     box-shadow: 6px 6px 6px #5a5a5a;
 }
-video{
+.vid-list video{
     width: 350px;
-    margin: 15px;
+    margin: 23px;
     border-radius: 20px;
 }   
+
+/* sidebar */
+
+
+
+.sidebar{
+    background: #4eaac4;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 1%;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+   
+}
+.shortcut-links a img{
+    width: 20px;
+    margin-right: 20px;
+    
+}
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width: fit-content;
+    flex-wrap: wrap;
+   color: #000;
+   font-size: 20px;  
+}
+
+.shortcut-links a:hover{
+color: white;
+padding-left: 20px;
+font-weight: bolder;
+font-size: larger;
+
+}
+.shortcut-links a:first-child{
+    color: white;
+    font-weight: bolder;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+.subcribed-list h3{
+    font-size: 13px;
+    margin: 20px 0;
+    color: #5a5a5a;
+}
+.subcribed-list a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+}
+.subcribed-list a img{
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p{
+    display: none;
+}
+.small-sidebar h3{
+    display: none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
