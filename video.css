@@ -1,0 +1,148 @@
+.video-container{
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 19%;
+  padding-right: 2%;
+  
+  background-color: #6acfeb;
+  
+}
+.video-container h1{
+  padding: 20px;
+}
+.video-container hr{
+  height:4px;
+  border-width:0;
+  color:#19728B;
+  background-color:#19728B;
+}
+.container4 {
+    position: relative;
+   margin-left: 150px;
+    align-items: center;
+    width: 1400px;
+    margin-top: 50px;
+    width: 1000px;
+  }
+  
+  /* Hide the images by default */
+  .mySlides4 {
+    display: none;
+    margin-left: 50px;
+    
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(11, 7, 7);
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(64, 33, 25, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container4 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+  }
+  
+  .row4:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 70px;
+  }
+  
+  /* Six columns side by side */
+  .column4 {
+    float: left;
+    width: 16.66%;
+    margin-top: -60px;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .sub-menu-wrap4{
+    position: absolute;
+    top: 100%;
+    right: 1%;
+    width: 800px;
+    max-height: 0px;
+    overflow: auto;
+    transform: max-height 0.5s;
+    
+}
+.sub-menu-wrap4.open-menu{
+    max-height: 800px;
+    overflow: hidden;
+    
+}
+
+.sub-menu4{
+    background: #e7d1ca;
+    padding: 20px;
+    padding-top: 5PX;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.sub-menu4 h2{
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 28%;
+}
+.sub-menu video{
+    align-items: center;
+    height: 100px;
+    
+}
