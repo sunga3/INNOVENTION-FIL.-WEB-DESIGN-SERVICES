@@ -1,0 +1,70 @@
+.about-container h1{
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    font-size: 50px;
+    
+}
+.vl {
+    border-left: 6px solid #19728B ;
+    height: 500px;
+    margin-left: 410px;
+    height: 300px;
+  }
+  .nano p{
+    margin-left: 30px;
+    width: 310px;
+    font-size: 30px;
+  }
+  .nano2 p{
+    margin-left: 20px;
+    width: 310px;
+    font-size: 25px;
+  }
+  .vl-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+
+  }
+  .about-container2 h1{
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    font-size: 50px;
+  }
+  .pogi {
+    border-left: 6px solid #19728B ;
+    height: 500px;
+    margin-left: 410px;
+    height:250px;
+    
+  }
+  .toyo p{
+    margin-left: 30px;
+    width: 310px;
+    font-size: 35px;
+  }
+  
+  .about-container3 h1{
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom:120px;
+    font-size: 50px;
+
+  }
+
+  .pogi2{
+    border-left: 6px solid #19728B ;
+    height: 500px;
+    margin-left: 410px;
+    height:250px;
+  }
+  .toyo2 p{
+    margin-left: 30px;
+    width: 310px;
+    font-size: 35px;
+
+  }
